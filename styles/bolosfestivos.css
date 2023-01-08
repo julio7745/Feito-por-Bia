@@ -1,0 +1,29 @@
+@charset "UTF-8";
+:root{
+    --cor0: rgb(100, 65, 45);
+    --cor1: rgb(182, 153, 145);
+}
+.titulo{
+    background: var(--cor1) url(../images/home/tBThome.jpeg) center bottom no-repeat;
+    background-size: cover;
+}
+#slide1{
+    background: var(--cor0) url(../images/bolos-festivos/IMG_20230107_162949.jpg) center center no-repeat;
+    background-size: contain;
+}
+#slide2{
+    background: var(--cor0) url(../images/bolos-festivos/IMG_20230107_162931.jpg) center center no-repeat;
+    background-size: contain;
+}
+#slide3{
+    background: var(--cor0) url(../images/bolos-festivos/IMG_20230107_162803.jpg) center center no-repeat;
+    background-size: contain;
+}
+#slide4{
+    background: var(--cor0) url(../images/bolos-festivos/IMG_20230107_162841.jpg) center center no-repeat;
+    background-size: contain;
+}
+#slide5{
+    background: var(--cor0) url(../images/bolos-festivos/IMG_20230107_162912.jpg) center center no-repeat;
+    background-size: contain;
+}

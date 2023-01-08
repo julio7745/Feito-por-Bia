@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feito por Bia</title>
+    <link rel="stylesheet" href="styles/feitoporbia.css">
+    <link rel="stylesheet" href="styles/produto.css">
+    <link rel="stylesheet" href="styles/docinhostradicionais.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>    
+        <div id="dmenu">
+            <span id="imenu" class="material-icons bt" onclick="abremenu()">menu</span>
+        </div>
+        <a class="dlogo" href="home.html">
+                <img id="imglogo" src="images/logo.png" alt="Feito por Bia">
+        </a>
+        <div id="menu">
+            <nav>
+                <div id="bvolt">
+                    <span id="ivolt" class="material-icons bt" onclick="fechamenu()">menu_open</span>
+                </div>
+                <ul id="nave" >
+                    <li>
+                        <div class="dnavegacao"><a class="anavegacao" href="home.html">.  Home  .</a></div>
+                        <div class="conteiner"></div>
+                    </li>
+                    <li>
+                        <div class="dnavegacao" onclick="mmprodutos()">.  Produtos  .</div>
+                        <div id="mprodutos" class="conteiner">
+                            <a class="produto" href="produtos.html?p=0">Todos os Produtos</a>
+                            <div class="produtos" onclick="mostrarbolos()">
+                                Bolos 
+                                <span id="esp1" style="transform: translateY(6px);" class="material-icons">
+                                    expand_more
+                                </span>
+                                <span id="ret1" style="transform: translateY(6px); display: none;" class="material-icons">
+                                    expand_less
+                                </span>
+                            </div>
+                            <div id="bolos" class="produto">
+                                <a class="produto" href="produtos.html?p=1">Todos os bolos</a>
+                                <a class="produto" href="bolosfestivos.html">Bolos Festivos</a>
+                                <a class="produto" href="bentocake.html">Bento cake</a>
+                            </div>
+                            <a class="produto" href="docinhostradicionais.html">Docinhos tradicionais</a>
+                            <!--<a class="produto" href="">Produto 3</a>-->
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dnavegacao"><a class="anavegacao" href="sobre.html">.  Sobre  .</a></div>
+                        <div class="conteiner"></div>
+                    </li>
+                    <li>
+                        <div class="dnavegacao" onclick="mmcontato()">.  Contato  .</div>
+                        <div id="mcontato" class="conteiner">
+                            <a class="produto" href="https://api.whatsapp.com/send?phone=5531991415458&text=Oi,%20quero%20fazer%20uma%20encomenda" target="_blank">WhatsApp <img class="cttico" src="images/ha-icob.png" alt=""></a>
+                            <a class="produto" href="https://www.instagram.com/feitoporbiia/" target="_blank">Instagram <img class="cttico" src="images/ig-icob.png" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main> 
+        <div class="titulo">
+            <h1>Docinhos Tradicionais</h1>
+        </div>
+        <section class="conteudo">
+            <h2>Descrição: </h2>
+            <p>
+                Os tradicionais que nunca podem faltar, aliados à uma explosão de sabores e delicadeza.
+            </p>
+            <section id="subconteudos">
+                <h2>Preços:</h2>
+                <ul>
+                    <li>Cento R$150,00</li>
+                    <li>Meio cento R$80,00</li>
+                </ul> 
+                <h2>Sabores:</h2>
+                <ul>
+                    <li>Brigadeiro chocolate ao leite com confeito chocolate ao leite</li>
+                    <li>Brigadeiro de leite ninho e confeito em leite em po ninho</li>
+                </ul> 
+                <h2>Preços com acrescimos:</h2>
+                <ul>
+                    <li>Cento R$180,00</li>
+                    <li>Meio cento R$100,00</li>
+                </ul>
+                <h2>Acrescimos</h2>
+                <ul>
+                    <li>Nutella ou confetes coloridos, e brigadeiro de ninho colorido personalizado </li>
+                </ul>
+            </section>
+        </section>
+        <section id="fotos" class="conteudo">
+            <input type="radio" name="foto" id="f1" checked>
+            <input type="radio" name="foto" id="f2">
+            <!--<input type="radio" name="foto" id="f3">
+            <input type="radio" name="foto" id="f4">
+            <input type="radio" name="foto" id="f5">-->
+            <div class="slide" id="slide1"></div>
+            <div class="slide" id="slide2"></div>
+            <!--<div class="slide" id="slide3"></div>
+            <div class="slide" id="slide4"></div>
+            <div class="slide" id="slide5"></div>-->
+            <div id="navegation">
+                <label id="lf1" for="f1"></label>
+                <label id="lf2" for="f2"></label>
+                <!--<label id="lf3" for="f3"></label>
+                <label id="lf4" for="f4"></label>
+                <label id="lf5" for="f5"></label>-->
+            </div>
+        </section>
+        <section id="adicional" class="conteudo">
+            <div class="add">
+                <a href="https://api.whatsapp.com/send?phone=5531991415458&text=Olá,%20tenho%20interesse%20em%20adquirir%20docinhos%20tradicionais!" target="_blank">Tenho interesse no produto
+                    <span class="material-icons"> chevron_right </span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="ctt">
+            <div>
+                <h2 id="ctt1"> Contato:</h2>
+            </div>
+            <div id="ctt2">
+                <a class="contato" href="https://api.whatsapp.com/send?phone=5531991415458&text=Oi,%20quero%20fazer%20uma%20encomenda" target="_blank">WhatsApp <img class="cttico" src="images/ha-icob.png" alt=""></a>
+                <a class="contato" href="https://www.instagram.com/feitoporbiia/" target="_blank">Instagram <img class="cttico" src="images/ig-icob.png" alt=""></a>
+            </div>
+        </div>
+        <div style="width: 100%; display: flex; justify-content: center; margin-top: 15px;">
+            <a href="home.html">
+                <div id="logo"></div>
+            </a>
+        </div>
+    </footer>
+</body>
+<script>
+    function abremenu(){
+        menu.style.marginLeft = 0
+    }
+    function fechamenu(){
+        menu.style.marginLeft = '-100vw'
+        mprodutos.style.display = 'none'
+        mcontato.style.display = 'none'
+        bolos.style.display= 'none'
+        esp1.style.display = 'inline-block'
+        ret1.style.display = 'none'
+    }
+    function mmprodutos(){
+        if(mprodutos.style.display == 'none'){
+            mprodutos.style.display = 'block'
+            mcontato.style.display = 'none'
+        }else{
+            mprodutos.style.display = 'none'
+            bolos.style.display= 'none'
+            esp1.style.display = 'inline-block'
+            ret1.style.display = 'none'
+        }
+    }
+    function mmcontato(){
+        if(mcontato.style.display == 'none'){
+            mcontato.style.display = 'block'
+            mprodutos.style.display = 'none'
+        }else{
+            mcontato.style.display = 'none'
+        }
+    }
+    function mostrarbolos(){
+        if(bolos.style.display == 'none'){
+            bolos.style.display = 'block'
+            esp1.style.display = 'none'
+            ret1.style.display = 'inline-block'
+        }else{
+            bolos.style.display= 'none'
+            esp1.style.display = 'inline-block'
+            ret1.style.display = 'none'
+        }
+    }
+</script>
+</html>
