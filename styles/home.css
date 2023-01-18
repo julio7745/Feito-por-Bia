@@ -3,8 +3,8 @@ body{
     background-color: var(--cor1);
 }
 #sobre{
-    width: 100vw;
-    margin: auto;
+    width: 100%;
+    margin: 0px;
     background-color: var(--cor0);
     color: white;
     padding: 30px;

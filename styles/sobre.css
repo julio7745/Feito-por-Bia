@@ -37,15 +37,18 @@
 #desc{
     padding-top: 10px;
 }
-h2{
+h1{
     font-family: var(--tnormal);
+    font-size: 1.3em;
     letter-spacing: 0.1em;
     padding: 20px 10px 10px 10px;
 }
 p{
     text-indent: 20px;
     text-align: justify;
-    padding: 0px 10px 20px 10px;
+    font-size: 1em;
+    padding: 0px 10px 20px 0px;
+    margin: 10px;
 }
 #fotos{
     background-color: var(--cor0);
