@@ -5,7 +5,7 @@
 }
 .titulo{
     background: var(--cor1) url(../images/bolo-de-pote/IMG-20221230-WA0026.jpg) center 40% no-repeat;
-    background-size: ;
+    background-size: cover ;
 }
 #slide1{
     background: var(--cor0) url(../images/bolo-de-pote/IMG-20221230-WA0026.jpg) center center no-repeat;
