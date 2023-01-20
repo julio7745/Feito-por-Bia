@@ -141,7 +141,7 @@ div.produto{
     font-size: 1.2em;
     letter-spacing: 0.05em;
     display: block;
-    color: white;
+    color: var(--cor2);
     margin: 15px;
     margin-left: 50px;
     text-decoration: none;

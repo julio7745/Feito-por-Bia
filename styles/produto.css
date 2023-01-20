@@ -68,8 +68,8 @@ main ul > li::before {
 }
 #fotos{
     background-color: var(--cor0);
-    height: 60vw;
-    max-height: 90vh;
+    height: 50vw;
+    max-height: 60vh;
     padding: 0px;
     overflow: hidden;
     position: relative;
@@ -132,28 +132,28 @@ main ul > li::before {
     background-color: white;
 }
 #f1:checked ~ #slide1{
-    width: calc(90vw - 30px);
-    height: calc(60vw - 30px);
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
     margin: 15px;
 }
 #f2:checked ~ #slide2{
-    width: calc(90vw - 30px);
-    height: calc(60vw - 30px);
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
     margin: 15px;
 }
 #f3:checked ~ #slide3{
-    width: calc(90vw - 30px);
-    height: calc(60vw - 30px);
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
     margin: 15px;
 }
 #f4:checked ~ #slide4{
     width: calc(90vw - 30px);
-    height: calc(60vw - 30px);
+    height: calc(100% - 30px);
     margin: 15px;
 }
 #f5:checked ~ #slide5{
-    width: calc(90vw - 30px);
-    height: calc(60vw - 30px);
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
     margin: 15px;
 }
 #adicional{
@@ -185,7 +185,7 @@ main ul > li::before {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.507);
     border: 2px solid white;
 }
-@media all and (max-width: 315px) {
+@media all and (max-width: 300px) {
     nav{
         padding-right: 0px;
     }

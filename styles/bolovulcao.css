@@ -1,0 +1,17 @@
+@charset "UTF-8";
+:root{
+    --cor0: rgb(100, 65, 45);
+    --cor1: rgb(182, 153, 145);
+}
+.titulo{
+    background: var(--cor1) url(../images/bolo-vulcao/IMG_20230120_143937.jpg) center 55% no-repeat;
+    background-size: cover ;
+}
+#slide1{
+    background: var(--cor0) url(../images/bolo-vulcao/IMG_20230120_143937.jpg) center center no-repeat;
+    background-size: contain;
+}
+#slide2{
+    background: var(--cor0) url(../images/bolo-vulcao/IMG-20230118-WA0020.jpg) center center no-repeat;
+    background-size: contain;
+}
