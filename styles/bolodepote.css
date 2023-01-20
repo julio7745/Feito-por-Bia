@@ -1,0 +1,29 @@
+@charset "UTF-8";
+:root{
+    --cor0: rgb(100, 65, 45);
+    --cor1: rgb(182, 153, 145);
+}
+.titulo{
+    background: var(--cor1) url(../images/bolo-de-pote/IMG-20221230-WA0026.jpg) center 40% no-repeat;
+    background-size: ;
+}
+#slide1{
+    background: var(--cor0) url(../images/bolo-de-pote/IMG-20221230-WA0026.jpg) center center no-repeat;
+    background-size: contain;
+}
+#slide2{
+    background: var(--cor0) url(../images/bolo-de-pote/IMG-20221230-WA0027.jpg) center center no-repeat;
+    background-size: contain;
+}
+#slide3{
+    background: var(--cor0) url(../images/bolo-de-pote/IMG_20230120_120443.jpg) center center no-repeat;
+    background-size: contain;
+}
+#slide4{
+    background: var(--cor0) url(../images/bolo-de-pote/IMG_20230120_120222.jpg) center center no-repeat;
+    background-size: contain;
+}
+#slide5{
+    background: var(--cor0) url(../images/bolo-de-pote/IMG_20230120_120349.jpg) center center no-repeat;
+    background-size: contain;
+}

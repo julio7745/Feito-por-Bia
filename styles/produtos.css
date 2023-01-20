@@ -84,6 +84,10 @@
     background: var(--cor1) url(../images/bento-cake/bento-cake.jpeg) no-repeat center 70% ;
     background-size: cover ;
 }
+#ilustracao4{
+    background: var(--cor1) url(../images/bolo-de-pote/IMG-20221230-WA0026.jpg) no-repeat center 30%;
+    background-size: cover ;
+}
 
 /* ______________________________________________________________________ */
 @media screen and (max-width: 390px) {

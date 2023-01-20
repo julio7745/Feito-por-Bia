@@ -53,7 +53,7 @@ body{
     margin: 10px 10px;
 }
 #tBT{
-    background: url(../images/home/tBThome.jpeg) center right;
+    background: url(../images/home/tBThome.jpeg) center center;
 }
 #tBP{
     background: url(../images/home/tBPhome.jpeg) center left;
