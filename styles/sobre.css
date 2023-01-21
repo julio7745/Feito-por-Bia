@@ -7,6 +7,7 @@
     font-family: QuicheSans;
     src: url(../fontes/quichesans.otf);
 }
+
 :root{
     --cor0: rgb(100, 65, 45);
     --cor1: rgb(182, 153, 145);
@@ -51,149 +52,53 @@ p{
     margin: 10px;
 }
 #fotos{
+    position: relative;
     background-color: var(--cor0);
     height: 50vw;
     max-height: 60vh;
-    padding: 0px;
-    overflow: hidden;
-    position: relative;
+    text-align: center;
     box-shadow: none;
+    overflow: hidden;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
-#fotos > input{
-    display: none;
+#fotos > .btf{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    border-radius: 100%;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fotos > .btf > span{
+    font-weight: bolder;
+}
+#fotos > .btf > span#bvolt{
+    transform: translateX(5px);
+}
+#avancar{
+    right: 0;
+}
+#voltar{
+    left: 0;
 }
 .slide{
-    max-width: calc(800px - 30px);
-    max-height: calc(90vh - 30px);
-    width: 0px;
-    height: 0px;
-    margin: 0px;
-    transition: .5s;
-}
-#slide1{
-    background-color: red;
-}
-#slide2{
-    background-color: aqua;
-}
-#slide3{
-    background-color: green;
-}
-#slide4{
-    background-color: blueviolet;
-}
-#slide5{
-    background-color: brown;
-}
-#navegation{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    background-color: var(--cor0);
-    padding: 5px 10px;
-    border-radius: 15px 0px;
-    width: calc(90vw - 100px);
-    max-width: calc(700px - 100px);
-    justify-content: center;
-    box-shadow: 0px 0px 15px var(--cor3);
-}
-#navegation label{
-    width: 100%;
-    height: 2vw;
-    max-height: 15px;
-    border: 2px solid white;
-    border-radius: 5px;
-    margin: 0.5%;
-}
-#navegation label:hover{
-    background-color: var(--cor3);
-    transition: .5s;
-}
-.lf{
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#f1:checked ~ #navegation label#lf1{
-    background-color: white;
-}
-#f2:checked ~ #navegation label#lf2{
-    background-color: white;
-}
-#f3:checked ~ #navegation label#lf3{
-    background-color: white;
-}
-#f4:checked ~ #navegation label#lf4{
-    background-color: white;
-}
-#f5:checked ~ #navegation label#lf5{
-    background-color: white;
-}
-#f1:checked ~ #slide1{
-    width: calc(100% - 30px);
-    height: calc(100% - 30px);
-    margin: 15px;
-}
-#f2:checked ~ #slide2{
-    width: calc(100% - 30px);
-    height: calc(100% - 30px);
-    margin: 15px;
-}
-#f3:checked ~ #slide3{
-    width: calc(100% - 30px);
-    height: calc(100% - 30px);
-    margin: 15px;
-}
-#f4:checked ~ #slide4{
-    width: calc(100% - 30px);
-    height: calc(100% - 30px);
-    margin: 15px;
-}
-#f5:checked ~ #slide5{
-    width: calc(100% - 30px);
-    height: calc(100% - 30px);
-    margin: 15px;
+.slide > img{
+    margin: 20px;
+    height: calc(100% + -40px);
+    border-radius: 10px;
 }
 #adicional{
     padding: 4vh;
-}
-@media screen and (max-width: 300px) {
-    nav{
-        padding-right: 0px;
-    }
-}
-@media screen and (orientation: portrait) {
-    #fotos{
-        height: 85vh;
-        max-height: 60vw;
-    }
-    .slide{
-        max-height: calc(60vw - 30px) ;
-    }
-    #f1:checked ~ #slide1{
-        width: calc(90vw - 30px);
-        height: calc(85vh - 30px);
-        margin: 15px;
-    }
-    #f2:checked ~ #slide2{
-        width: calc(90vw - 30px);
-        height: calc(85vh - 30px);
-        margin: 15px;
-    }
-    #f3:checked ~ #slide3{
-        width: calc(90vw - 30px);
-        height: calc(85vh - 30px);
-        margin: 15px;
-    }
-    #f4:checked ~ #slide4{
-        width: calc(90vw - 30px);
-        height: calc(85vh - 30px);
-        margin: 15px;
-    }
-    #f5:checked ~ #slide5{
-        width: calc(90vw - 30px);
-        height: calc(85vh - 30px);
-        margin: 15px;
-    }
 }
