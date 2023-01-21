@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/bolovulcao.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="scripts/feitoporbia.js"></script>
 </head>
 <body>
     <header>    
@@ -93,14 +94,14 @@
             </section>
         </section>
         <section id="fotos" class="conteudo">
-            <input type="radio" name="foto" id="f1" checked>
-            <input type="radio" name="foto" id="f2">
-            <div class="slide" id="slide1"></div>
-            <div class="slide" id="slide2"></div>
-            <div id="navegation">
-                <label id="lf1" for="f1"></label>
-                <label id="lf2" for="f2"></label>
+            <div id="voltar" class="bt btf" onclick="vft()">
+                <span id="bvolt" class="material-icons">arrow_back_ios</span>
             </div>
+            <div id="avancar" class="bt btf" onclick="aft()">
+                <span class="material-icons">arrow_forward_ios</span>
+            </div>
+            <div class="slide"><img src="images/bolo-vulcao/IMG-20230118-WA0020.jpg" alt=""></div>
+            <div class="slide"><img src="images/bolo-vulcao/IMG_20230120_143937.jpg" alt=""></div>
         </section>
         <section id="adicional" class="conteudo">
             <div class="add">

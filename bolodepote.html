@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/bolodepote.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="scripts/feitoporbia.js"></script>
 </head>
 <body>
     <header>    
@@ -92,23 +93,17 @@
             </section>
         </section>
         <section id="fotos" class="conteudo">
-            <input type="radio" name="foto" id="f1" checked>
-            <input type="radio" name="foto" id="f2">
-            <input type="radio" name="foto" id="f3">
-            <input type="radio" name="foto" id="f4">
-            <input type="radio" name="foto" id="f5">
-            <div class="slide" id="slide1"></div>
-            <div class="slide" id="slide2"></div>
-            <div class="slide" id="slide3"></div>
-            <div class="slide" id="slide4"></div>
-            <div class="slide" id="slide5"></div>
-            <div id="navegation">
-                <label id="lf1" for="f1"></label>
-                <label id="lf2" for="f2"></label>
-                <label id="lf3" for="f3"></label>
-                <label id="lf4" for="f4"></label>
-                <label id="lf5" for="f5"></label>
+            <div id="voltar" class="bt btf" onclick="vft()">
+                <span id="bvolt" class="material-icons">arrow_back_ios</span>
             </div>
+            <div id="avancar" class="bt btf" onclick="aft()">
+                <span class="material-icons">arrow_forward_ios</span>
+            </div>
+            <div class="slide"><img src="images/bolo-de-pote/IMG_20230120_120443.jpg" alt=""></div>
+            <div class="slide"><img src="images/bolo-de-pote/IMG-20221230-WA0026.jpg" alt=""></div>
+            <div class="slide"><img src="images/bolo-de-pote/IMG-20221230-WA0027.jpg" alt=""></div>
+            <div class="slide"><img src="images/bolo-de-pote/IMG_20230120_120222.jpg" alt=""></div>
+            <div class="slide"><img src="images/bolo-de-pote/IMG_20230120_120349.jpg" alt=""></div>
         </section>
         <section id="adicional" class="conteudo">
             <div class="add">
