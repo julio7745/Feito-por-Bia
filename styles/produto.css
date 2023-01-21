@@ -147,11 +147,17 @@ main ul > li::before {
         transition: .3s ease-in;
     }
     .slide > img{
-        margin: 15px;
+        margin: 10px;
         height: auto;
-        width: calc(100% + -30px);
+        width: calc(100% + -20px);
     }
     .btf{
         transform: scale(0.75);
+    }
+}
+@media screen and (orientation: landscape) and (max-height: 400px){
+    #fotos{
+        height: 85vh;
+        max-height: 85vh;
     }
 }

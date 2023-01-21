@@ -117,3 +117,10 @@ p{
         transform: scale(0.75);
     }
 }
+
+@media screen and (orientation: landscape) and (max-height: 400px){
+    #fotos{
+        height: 85vh;
+        max-height: 85vh;
+    }
+}
