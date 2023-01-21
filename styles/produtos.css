@@ -41,7 +41,7 @@
 }
 .container{
     padding: 10px;
-    display: none;
+    display: inline-block;
     margin: 15px;
     background-color: var(--cor0);
     border-radius: 10px;
