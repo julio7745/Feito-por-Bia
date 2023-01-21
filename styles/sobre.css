@@ -55,7 +55,7 @@ p{
     position: relative;
     background-color: var(--cor0);
     height: 50vw;
-    max-height: 60vh;
+    max-height: 45vh;
     text-align: center;
     box-shadow: none;
     overflow: hidden;
@@ -101,4 +101,19 @@ p{
 }
 #adicional{
     padding: 4vh;
+}
+@media screen and (max-width: 400px) {    
+    #fotos{
+        height: 60vh;
+        max-height: 60vh;
+        
+    }
+    .slide > img{
+        margin: 15px;
+        height: auto;
+        width: calc(100% + -30px);
+    }
+    .btf{
+        transform: scale(0.75);
+    }
 }

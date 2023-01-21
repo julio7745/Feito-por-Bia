@@ -6,9 +6,3 @@
     background: var(--cor1) url(../images/docinhos-tradicionais/IMG_20230107_171151.jpg) center bottom no-repeat;
     background-size: cover;
 }
-.slide > img#f1{
-    margin: 20px;
-    height: auto;
-    width: calc(100% + -40px);
-    border-radius: 10px;
-}
