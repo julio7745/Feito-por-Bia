@@ -84,6 +84,7 @@ main ul > li::before {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid var(--cor2); 
 }
 #fotos > .btf > span{
     font-weight: bolder;
