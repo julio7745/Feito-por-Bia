@@ -29,6 +29,7 @@ function config() {
                     <div class="dnavegacao" onclick="mmprodutos()">.  Produtos  .</div>
                     <div id="mprodutos" class="conteiner">
                         <a class="produto" href="produtos.html">Todos os Produtos</a>
+                        <!--COMEÇO MENU INTERNO-->
                         <div class="produtos" onclick="mostrarbolos()">
                             Bolos 
                             <span id="esp1" style="transform: translateY(6px);" class="material-icons">
@@ -44,8 +45,24 @@ function config() {
                             <a class="produto" href="bentocake.html">Bento cake</a>
                             <a class="produto" href="bolodepote.html">Bolo de Pote</a>
                             <a class="produto" href="bolovulcao.html">Bolo Vulcão</a>
+                            <a class="produto" href="bolofatia.html">Bolo em Fatia</a>
                         </div>
-                        <a class="produto" href="docinhostradicionais.html">Docinhos tradicionais</a>
+                        <!--FIM MENU INTERNO-->
+                        <div class="produtos" onclick="mostrardocinhos()">
+                            Docinhos 
+                            <span id="esp1" style="transform: translateY(6px);" class="material-icons">
+                                expand_more
+                            </span>
+                            <span id="ret1" style="transform: translateY(6px); display: none;" class="material-icons">
+                                expand_less
+                            </span>
+                        </div>
+                        <div id="docinhos" class="produto">
+                            <a class="produto" href="produtos.html?p=2">Todos os Docinhos</a>
+                            <a class="produto" href="docinhostradicionais.html">Docinhos tradicionais</a>
+                            <a class="produto" href="quartetodebrigadeiros.html">Quarteto de Brigadeiros</a>
+                        </div>
+                        
                         <!--<a class="produto" href="">Produto 3</a>-->
          
                         </div>
@@ -86,15 +103,25 @@ function config() {
 
 //PRODUTOS --> PAGINA PRODUTOS
 function load(){
+
     var param = new URLSearchParams(window.location.search).get('p')
     var produto = window.document.getElementsByClassName('container')
     var bolo = window.document.getElementsByClassName('bolo')
+    var docinho = window.document.getElementsByClassName('docinho')
+    
     if(param == "1"){
         for(aux=0; aux < produto.length; aux++){
             produto[aux].style.display='none'
         }
         for(aux=0; aux < bolo.length; aux++){
             bolo[aux].style.display='inline-block'
+        }
+    }if(param == "2"){
+        for(aux=0; aux < produto.length; aux++){
+            produto[aux].style.display='none'
+        }
+        for(aux=0; aux < bolo.length; aux++){
+            docinho[aux].style.display='inline-block'
         }
     }
 }
@@ -131,6 +158,7 @@ function mmcontato(){
     }
 }
 function mostrarbolos(){
+    var bolos = window.document.getElementById('bolos')
     if(bolos.style.display == 'none'){
         bolos.style.display = 'block'
         esp1.style.display = 'none'
@@ -139,6 +167,19 @@ function mostrarbolos(){
         bolos.style.display= 'none'
         esp1.style.display = 'inline-block'
         ret1.style.display = 'none'
+    }
+}
+
+function mostrardocinhos(){
+    var docinhos = window.document.getElementById('docinhos')
+    if(docinhos.style.display == 'none'){
+        docinhos.style.display = 'block'
+        esp2.style.display = 'none'
+        ret2.style.display = 'inline-block'
+    }else{
+        docinhos.style.display= 'none'
+        esp2.style.display = 'inline-block'
+        ret2.style.display = 'none'
     }
 }
 

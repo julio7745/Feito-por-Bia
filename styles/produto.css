@@ -61,6 +61,10 @@ main ul > li{
 main ul > li::before {
     content: '. ';
 }
+li > a {
+    color: var(--cor0);
+    text-decoration: none;
+}
 #fotos{
     position: relative;
     background-color: var(--cor0);

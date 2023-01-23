@@ -1,8 +1,0 @@
-@charset "UTF-8";
-:root{
-    --cor1: rgb(182, 153, 145);
-}
-.titulo{
-    background: var(--cor1) url(../images/bento-cake/bento-cake.jpeg) center 70% no-repeat;
-    background-size: cover;
-}
