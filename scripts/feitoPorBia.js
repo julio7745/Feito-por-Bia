@@ -63,7 +63,7 @@ function config() {
                             <a class="produto" href="DocinhosTradicionais.html">Docinhos tradicionais</a>
                             <a class="produto" href="QuartetoDeBrigadeiros.html">Quarteto de Brigadeiros</a>
                         </div>
-                        <a class="produto" href="CopoDaFelicidade.html">Copo da Felicidade</a>
+                        <a class="produto" href="copoDaFelicidade.html">Copo da Felicidade</a>
                         <a class="produto" href="bombomAberto.html">Bombom Aberto</a>
                     </div>
                     <!--FIM MENU INTERNO-->
