@@ -73,31 +73,35 @@
 /* ______________________________________________________________________ */
 
 #ilustracao1{
-    background: var(--cor1) url(../images/bolos-festivos/ft6.jpg) no-repeat center center ;
+    background: var(--cor1) url(../images/bolosFestivos/ft6.jpg) no-repeat center center ;
     background-size: cover ;
 }
 #ilustracao2{
-    background: var(--cor1) url(../images/docinhos-tradicionais/ft2.jpg) no-repeat center center ;
+    background: var(--cor1) url(../images/docinhosTradicionais/ft2.jpg) no-repeat center center ;
     background-size: cover ;
 }
 #ilustracao3{
-    background: var(--cor1) url(../images/bento-cake/ft1.jpeg) no-repeat center 70% ;
+    background: var(--cor1) url(../images/bentoCake/ft1.jpeg) no-repeat center 70% ;
     background-size: cover ;
 }
 #ilustracao4{
-    background: var(--cor1) url(../images/bolo-de-pote/ft2.jpg) no-repeat center 30%;
+    background: var(--cor1) url(../images/boloDePote/ft2.jpg) no-repeat center 30%;
     background-size: cover ;
 }
 #ilustracao5{
-    background: var(--cor1) url(../images/bolo-vulcao/ft1.jpg) no-repeat center center;
+    background: var(--cor1) url(../images/boloVulcao/ft1.jpg) no-repeat center center;
     background-size: cover ;
 }
 #ilustracao6{
-    background: var(--cor1) url(../images/bolo-fatia/ft1.jpeg) no-repeat center 65%;
+    background: var(--cor1) url(../images/boloFatia/ft1.jpeg) no-repeat center 65%;
     background-size: cover ;
 }
 #ilustracao7{
-    background: var(--cor1) url(../images/docinhos-tradicionais/quarteto/ft1.jpeg) no-repeat center center;
+    background: var(--cor1) url(../images/docinhosTradicionais/quarteto/ft1.jpeg) no-repeat center center;
+    background-size: cover ;
+}
+#ilustracao8{
+    background: var(--cor1) url(../images/copoDaFelicidade/ft1.jpeg) no-repeat center center;
     background-size: cover ;
 }
 /* ______________________________________________________________________ */

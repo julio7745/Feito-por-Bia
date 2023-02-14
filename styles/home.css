@@ -46,36 +46,36 @@ body{
     transition: 2s;
 }
 #slide1{
-    background-image: url(../images/bolos-festivos/ft3.jpg);
+    background-image: url(../images/bolosFestivos/ft3.jpg);
 }
 #slide2{
-    background-image: url(../images/docinhos-tradicionais/quarteto/ft2.jpeg);
+    background-image: url(../images/docinhosTradicionais/quarteto/ft2.jpeg);
 }
 #slide3{
-    background-image: url(../images/bolos-festivos/ft1.jpeg);
+    background-image: url(../images/bolosFestivos/ft1.jpeg);
 }
 #slide4{
-    background-image: url(../images/bolo-vulcao/ft1.jpg);
+    background-image: url(../images/boloVulcao/ft1.jpg);
 }
 #slide5{
-    background-image: url(../images/bento-cake/ft1.jpeg);
+    background-image: url(../images/bentoCake/ft1.jpeg);
     background-position: center 70%;
 }
 #slide6{
-    background-image: url(../images/bolo-de-pote/ft4.jpg);
+    background-image: url(../images/boloDePote/ft4.jpg);
     background-position: center 20%;
 }
 #slide7{
-    background-image: url(../images/docinhos-tradicionais/ft2.jpg);
+    background-image: url(../images/docinhosTradicionais/ft2.jpg);
 }
 #slide8{
-    background-image: url(../images/bolo-vulcao/ft1.jpg);
+    background-image: url(../images/boloVulcao/ft1.jpg);
 }
 #slide9{
-    background-image: url(../images/bolo-fatia/ft1.jpeg);
+    background-image: url(../images/boloFatia/ft1.jpeg);
 }
 #slide10{
-    background-image: url(../images/bolos-festivos/ft6.jpg);
+    background-image: url(../images/bolosFestivos/ft6.jpg);
 }
 #tgaleria{
     position: absolute;
@@ -158,23 +158,14 @@ h1{
     padding: 15px 10px 5px 10px;
     margin: 10px 10px;
 }
-#tBT{
-    background: url(../images/home/tBThome.jpeg) center center;
-}
-#tBP{
-    background: url(../images/home/tBPhome.jpeg) center left;
+#tBF{
+    background: url(../images/bolosFestivos/ft4.jpg) center center;
 }
 #tBB{
-    background: url(../images/home/tBBhome.jpeg) center center;
+    background: url(../images/bentoCake/ft1.jpeg) center center;
 }
-#tBF{
-    background: url(../images/home/tBFhome.jpeg) right center;
-}
-#tBV{
-    background: url(../images/home/tBVhome.jpeg) center center;
-}
-#tBr{
-    background: url(../images/home/tBrhome.jpeg) center center;
+#tDT{
+    background: url(../images/docinhosTradicionais/ft2.jpg) right center;
 }
 .desc{
     padding: 30px;

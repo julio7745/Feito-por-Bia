@@ -27,9 +27,11 @@ function config() {
                 </li>
                 <li>
                     <div class="dnavegacao" onclick="mmprodutos()">.  Produtos  .</div>
+
+
+                    <!--COMEÇO MENU INTERNO-->
                     <div id="mprodutos" class="conteiner">
                         <a class="produto" href="produtos.html">Todos os Produtos</a>
-                        <!--COMEÇO MENU INTERNO-->
                         <div class="produtos" onclick="mostrarbolos()">
                             Bolos 
                             <span id="esp1" style="transform: translateY(6px);" class="material-icons">
@@ -41,13 +43,12 @@ function config() {
                         </div>
                         <div id="bolos" class="produto">
                             <a class="produto" href="produtos.html?p=1">Todos os bolos</a>
-                            <a class="produto" href="bolosfestivos.html">Bolos Festivos</a>
-                            <a class="produto" href="bentocake.html">Bento cake</a>
-                            <a class="produto" href="bolodepote.html">Bolo de Pote</a>
-                            <a class="produto" href="bolovulcao.html">Bolo Vulcão</a>
-                            <a class="produto" href="bolofatia.html">Bolo em Fatia</a>
+                            <a class="produto" href="bolosFestivos.html">Bolos Festivos</a>
+                            <a class="produto" href="bentoCake.html">Bento cake</a>
+                            <a class="produto" href="boloDePote.html">Bolo de Pote</a>
+                            <a class="produto" href="boloVulcao.html">Bolo Vulcão</a>
+                            <a class="produto" href="boloFatia.html">Bolo em Fatia</a>
                         </div>
-                        <!--FIM MENU INTERNO-->
                         <div class="produtos" onclick="mostrardocinhos()">
                             Docinhos 
                             <span id="esp1" style="transform: translateY(6px);" class="material-icons">
@@ -59,13 +60,12 @@ function config() {
                         </div>
                         <div id="docinhos" class="produto">
                             <a class="produto" href="produtos.html?p=2">Todos os Docinhos</a>
-                            <a class="produto" href="docinhostradicionais.html">Docinhos tradicionais</a>
-                            <a class="produto" href="quartetodebrigadeiros.html">Quarteto de Brigadeiros</a>
+                            <a class="produto" href="DocinhosTradicionais.html">Docinhos tradicionais</a>
+                            <a class="produto" href="QuartetoDeBrigadeiros.html">Quarteto de Brigadeiros</a>
                         </div>
-                        
-                        <!--<a class="produto" href="">Produto 3</a>-->
-         
-                        </div>
+                        <a class="produto" href="CopoDaFelicidade.html">Copo da Felicidade</a>-->
+                    </div>
+                    <!--FIM MENU INTERNO-->
                 </li>
                 <li>
                     <div class="dnavegacao"><a class="anavegacao" href="sobre.html">.  Sobre  .</a></div>
