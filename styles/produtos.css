@@ -77,7 +77,7 @@
     background-size: cover ;
 }
 #ilustracao2{
-    background: var(--cor1) url(../images/docinhosTradicionais/ft2.jpg) no-repeat center center ;
+    background: var(--cor1) url(../images/docinhosTradicionais/ft1.jpeg) no-repeat center center ;
     background-size: cover ;
 }
 #ilustracao3{
@@ -96,10 +96,7 @@
     background: var(--cor1) url(../images/boloFatia/ft1.jpeg) no-repeat center 65%;
     background-size: cover ;
 }
-#ilustracao7{
-    background: var(--cor1) url(../images/docinhosTradicionais/quarteto/ft1.jpeg) no-repeat center center;
-    background-size: cover ;
-}
+/*////////////*/
 #ilustracao8{
     background: var(--cor1) url(../images/copoDaFelicidade/ft1.jpeg) no-repeat center center;
     background-size: cover ;

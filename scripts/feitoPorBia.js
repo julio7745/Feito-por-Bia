@@ -133,19 +133,6 @@ function mostrarbolos(){
     }
 }
 
-function mostrardocinhos(){
-    var docinhos = window.document.getElementById('docinhos')
-    if(docinhos.style.display == 'none'){
-        docinhos.style.display = 'block'
-        esp2.style.display = 'none'
-        ret2.style.display = 'inline-block'
-    }else{
-        docinhos.style.display= 'none'
-        esp2.style.display = 'inline-block'
-        ret2.style.display = 'none'
-    }
-}
-
 //PASSAGEM DE FOTOS
 var foto1 = window.document.getElementsByClassName('slide')
 var margin = 0
