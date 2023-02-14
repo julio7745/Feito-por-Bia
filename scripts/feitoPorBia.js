@@ -60,8 +60,8 @@ function config() {
                         </div>
                         <div id="docinhos" class="produto">
                             <a class="produto" href="produtos.html?p=2">Todos os Docinhos</a>
-                            <a class="produto" href="DocinhosTradicionais.html">Docinhos tradicionais</a>
-                            <a class="produto" href="QuartetoDeBrigadeiros.html">Quarteto de Brigadeiros</a>
+                            <a class="produto" href="docinhosTradicionais.html">Docinhos tradicionais</a>
+                            <a class="produto" href="quartetoDeBrigadeiros.html">Quarteto de Brigadeiros</a>
                         </div>
                         <a class="produto" href="copoDaFelicidade.html">Copo da Felicidade</a>
                         <a class="produto" href="bombomAberto.html">Bombom Aberto</a>
