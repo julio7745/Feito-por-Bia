@@ -22,7 +22,7 @@ function config() {
             </div>
             <ul id="nave" >
                 <li>
-                    <div class="dnavegacao"><a class="anavegacao" href="home.html">.  Home  .</a></div>
+                    <div class="dnavegacao"><a class="anavegacao" href="home.html">.  Principal  .</a></div>
                     <div class="conteiner"></div>
                 </li>
                 <li>
