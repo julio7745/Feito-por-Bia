@@ -3,7 +3,6 @@ function load(){
 
     let param = new URLSearchParams(window.location.search).get('p')
     let produto = window.document.getElementsByClassName('container')
-    console.log("PRODUTO");
     let bolo = window.document.getElementsByClassName('bolo')
     
     switch (param) {
