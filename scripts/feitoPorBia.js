@@ -49,20 +49,7 @@ function config() {
                             <a class="produto" href="boloVulcao.html">Bolo Vulcão</a>
                             <a class="produto" href="boloFatia.html">Bolo em Fatia</a>
                         </div>
-                        <div class="produtos" onclick="mostrardocinhos()">
-                            Docinhos 
-                            <span id="esp1" style="transform: translateY(6px);" class="material-icons">
-                                expand_more
-                            </span>
-                            <span id="ret1" style="transform: translateY(6px); display: none;" class="material-icons">
-                                expand_less
-                            </span>
-                        </div>
-                        <div id="docinhos" class="produto">
-                            <a class="produto" href="produtos.html?p=2">Todos os Docinhos</a>
-                            <a class="produto" href="docinhosTradicionais.html">Docinhos tradicionais</a>
-                            <a class="produto" href="quartetoDeBrigadeiros.html">Quarteto de Brigadeiros</a>
-                        </div>
+                        <a class="produto" href="docinhosTradicionais.html">Docinhos tradicionais</a>
                         <a class="produto" href="copoDaFelicidade.html">Copo da Felicidade</a>
                         <a class="produto" href="bombomAberto.html">Bombom Aberto</a>
                     </div>
@@ -100,33 +87,6 @@ function config() {
         </a>
     </div>
     `
-}
-
-//PRODUTOS --> PAGINA PRODUTOS
-function load(){
-
-    var param = new URLSearchParams(window.location.search).get('p')
-    var produto = window.document.getElementsByClassName('container')
-    var bolo = window.document.getElementsByClassName('bolo')
-    var docinho = window.document.getElementsByClassName('docinho')
-    
-    switch (param) {
-        case '1':
-            for(let aux in produto){
-                produto[aux].style.display='none'
-            }
-            for(let aux in bolo){
-                bolo[aux].style.display='inline-block'
-            }
-            break;
-        case '2':
-            for(let aux in produto){
-                produto[aux].style.display='none'
-            }
-            for(let aux in docinho){
-                docinho[aux].style.display='inline-block'
-            }
-    }
 }
 
 //MENU
