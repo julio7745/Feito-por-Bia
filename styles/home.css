@@ -201,6 +201,11 @@ h1{
 }
 #todos a{
     color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+#todos a:hover{
+    color:var(--cor1)
 }
 @media screen and (max-width: 315px) {
     .conprod{
