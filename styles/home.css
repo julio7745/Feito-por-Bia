@@ -193,6 +193,15 @@ h1{
 .conprod a:hover{
     color: var(--cor1);
 }
+#todos{
+
+    background-color: var(--cor0);
+    text-align: center;
+    padding: 20px;
+}
+#todos a{
+    color: white;
+}
 @media screen and (max-width: 315px) {
     .conprod{
         font-size: .9em;

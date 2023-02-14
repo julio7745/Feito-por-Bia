@@ -104,6 +104,10 @@
     background: var(--cor1) url(../images/copoDaFelicidade/ft1.jpeg) no-repeat center center;
     background-size: cover ;
 }
+#ilustracao9{
+    background: var(--cor1) url(../images/bombomAberto/ft2.jpeg) no-repeat center center;
+    background-size: cover ;
+}
 /* ______________________________________________________________________ */
 @media screen and (max-width: 390px) {
     .conteudo{
