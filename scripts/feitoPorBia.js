@@ -110,20 +110,22 @@ function load(){
     var bolo = window.document.getElementsByClassName('bolo')
     var docinho = window.document.getElementsByClassName('docinho')
     
-    if(param == "1"){
-        for(aux=0; aux < produto.length; aux++){
-            produto[aux].style.display='none'
-        }
-        for(aux=0; aux < bolo.length; aux++){
-            bolo[aux].style.display='inline-block'
-        }
-    }if(param == "2"){
-        for(aux=0; aux < produto.length; aux++){
-            produto[aux].style.display='none'
-        }
-        for(aux=0; aux < bolo.length; aux++){
-            docinho[aux].style.display='inline-block'
-        }
+    switch (param) {
+        case '1':
+            for(let aux in produto){
+                produto[aux].style.display='none'
+            }
+            for(let aux in bolo){
+                bolo[aux].style.display='inline-block'
+            }
+            break;
+        case '2':
+            for(let aux in produto){
+                produto[aux].style.display='none'
+            }
+            for(let aux in docinho){
+                docinho[aux].style.display='inline-block'
+            }
     }
 }
 
