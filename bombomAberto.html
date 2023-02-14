@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feito por Bia</title>
+    <link rel="stylesheet" href="styles/feitoporbia.css">
+    <link rel="stylesheet" href="styles/produto.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="scripts/feitoPorBia.js"></script>
+</head>
+<body onload="config()">
+    <header></header>
+    <main> 
+        <div class="titulo" style="background: rgb(182, 153, 145) url(images/bombomAberto/ft1.jpeg) center 45% no-repeat; background-size: cover ;">
+            <h1>Bombom Aberto</h1>
+        </div>
+        <section class="conteudo">
+            <h2>Descrição: </h2>
+            <p>Um bombom aberto, uma delicia bem economica. Feito de creme ninho, ganache de chocolate blend e uvas frescas.</p>
+            <section id="subconteudos">
+                <h2>Preço:</h2>
+                <ul>
+                    <li>Bombom Aberto - R$8,00</li>
+                </ul>
+            </section>
+        </section>
+        <section id="fotos" class="conteudo">
+            <div id="voltar" class="bt btf" onclick="vft()">
+                <span id="bvolt" class="material-icons">arrow_back_ios</span>
+            </div>
+            <div id="avancar" class="bt btf" onclick="aft()">
+                <span class="material-icons">arrow_forward_ios</span>
+            </div>
+            <div class="slide"><img src="images/bombomAberto/ft2.jpeg" alt=""></div>
+            <div class="slide"><img src="images/bombomAberto/ft3.jpeg" alt=""></div>
+            <div class="slide"><img src="images/bombomAberto/ft1.jpeg" alt=""></div>
+        </section>
+        <section id="adicional" class="conteudo">
+            <div class="add">
+                <a href="https://api.whatsapp.com/send?phone=5531991415458&text=Olá,%20tenho%20interesse%20em%20um%20bolo%20de%pote!" target="_blank">Tenho interesse no produto
+                    <span class="material-icons"> chevron_right </span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
