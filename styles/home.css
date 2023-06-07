@@ -46,19 +46,20 @@ body{
     transition: 2s;
 }
 #slide1{
-    background-image: url(../images/bolosFestivos/ft3.jpg);
+    background-image: url(../images/bolosFestivos/ft12.jpeg);
+    background-position: center 70%;
 }
 #slide2{
-    background-image: url(../images/docinhosTradicionais/ft2.jpeg);
+    background-image: url(../images/docinhosTradicionais/ft4.jpeg);
 }
 #slide3{
-    background-image: url(../images/bolosFestivos/ft1.jpeg);
+    background-image: url(../images/bolosFestivos/ft9.jpeg);
 }
 #slide4{
-    background-image: url(../images/boloVulcao/ft1.jpg);
+    background-image: url(../images/boloVulcao/ft2.jpg);
 }
 #slide5{
-    background-image: url(../images/bentoCake/ft1.jpeg);
+    background-image: url(../images/bentoCake/ft5.jpeg);
     background-position: center 70%;
 }
 #slide6{
@@ -66,7 +67,7 @@ body{
     background-position: center 20%;
 }
 #slide7{
-    background-image: url(../images/docinhosTradicionais/ft4.jpeg);
+    background-image: url(../images/docinhosTradicionais/ft5.jpeg);
 }
 #slide8{
     background-image: url(../images/boloVulcao/ft1.jpg);
@@ -75,7 +76,7 @@ body{
     background-image: url(../images/boloFatia/ft1.jpeg);
 }
 #slide10{
-    background-image: url(../images/bolosFestivos/ft6.jpg);
+    background-image: url(../images/bolosFestivos/ft15.jpeg);
 }
 #tgaleria{
     position: absolute;
