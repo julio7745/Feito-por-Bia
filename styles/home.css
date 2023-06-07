@@ -47,7 +47,7 @@ body{
 }
 #slide1{
     background-image: url(../images/bolosFestivos/ft12.jpeg);
-    background-position: center 70%;
+    background-position: 65% 70%;
 }
 #slide2{
     background-image: url(../images/docinhosTradicionais/ft4.jpeg);
@@ -162,7 +162,7 @@ h1{
     margin: 10px 10px;
 }
 #tBF{
-    background: url(../images/bolosFestivos/ft14.jpeg) center 35%;
+    background: url(../images/bolosFestivos/ft6.jpg) center 20%;
 }
 #tBB{
     background: url(../images/bentoCake/ft2.jpeg) center 60%;
