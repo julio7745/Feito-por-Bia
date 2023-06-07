@@ -149,7 +149,6 @@ body{
     justify-content: center;
     background-color: var(--cor1);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     
 }
@@ -163,13 +162,13 @@ h1{
     margin: 10px 10px;
 }
 #tBF{
-    background: url(../images/bolosFestivos/ft4.jpg) center center;
+    background: url(../images/bolosFestivos/ft14.jpeg) center 35%;
 }
 #tBB{
-    background: url(../images/bentoCake/ft1.jpeg) center center;
+    background: url(../images/bentoCake/ft2.jpeg) center 60%;
 }
 #tDT{
-    background: url(../images/docinhosTradicionais/ft2.jpeg) right center;
+    background: url(../images/docinhosTradicionais/ft4.jpeg) center bottom;
 }
 .desc{
     padding: 30px;
