@@ -9,7 +9,7 @@ O objetivo principal deste projeto é desenvolver um website para divulgação d
 - **Visualização de Produtos:** Os usuários podem visualizar uma lista de produtos disponíveis na doceria, organizados por categorias como bolos, doces, etc.
 - **Propagação de contato:**  Os usuários terão a opção de entrar em contato diretamente com a proprietária da doceria "Feito por Bia" através de links personalizados distribuídos pelo projeto. Esses links podem ser disponibilizados em locais estratégicos do site, como na página inicial, na página de contato ou em cada página de produto.
 - **Compartilhamento da História:** Os usuários podem conhecer um pouco sobre a história da proprietária da doceria "Feito por Bia". Uma seção dedicada esta incluída no site, contando a trajetória, inspirações e valores que motivaram a criação da doceria.
-- 
+
 ## Tecnologias Utilizadas 🔧
 
 - **HTML**: Foi utilizado HTML puro para o desenvolvimento de interfaces.
